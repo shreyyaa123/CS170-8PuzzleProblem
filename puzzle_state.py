@@ -2,7 +2,6 @@ GOAL_STATE = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
 
 #different iterations of the puzzle
 class PuzzleState:
-
     def __init__(self, board, parent_state = None, move_direction = None, heuristic_function = None):
         self.board = board
         self.parent_state = parent_state
